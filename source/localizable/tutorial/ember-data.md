@@ -31,7 +31,7 @@ export default Model.extend({
 Let's add the same attributes for our rental that we used in our hard-coded array of JavaScript objects -
 _title_, _owner_, _city_, _type_, _image_, and _bedrooms_:
 
-```app/models/rental.js
+```app/models/rental.js{+2,+5,+6,+7,+8,+9,+10}
 import Model from 'ember-data/model';
 import attr from 'ember-data/attr';
 
